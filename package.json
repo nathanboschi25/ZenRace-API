@@ -1,0 +1,61 @@
+{
+  "name": "zenrace-api",
+  "version": "1.0.0",
+  "description": "ZenRace REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanboschi25/ZenRace-API.git"
+  },
+  "keywords": [
+    "SAE",
+    "ZenRace"
+  ],
+  "author": "Nathan BOSCHI",
+  "contributors": [
+    {
+      "name": "Nathan BOSCHI",
+      "email": "nathan.boschi@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Thomas CHEVALIER",
+      "email": "thomas.chevalier@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Lucas DA SILVEIRA",
+      "email": "lucas.da_silveira@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Clément MENAUCOURT",
+      "email": "clement.menaucourt@edu.univ-fcomte.fr"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanboschi25/ZenRace-API/issues"
+  },
+  "homepage": "https://github.com/nathanboschi25/ZenRace-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "bcryptjs": "^2.4.3",
+    "check-types": "^11.1.2",
+    "cookie-parser": "^1.4.5",
+    "docdash": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "express-session": "^1.17.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.9",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
